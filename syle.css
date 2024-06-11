@@ -74,6 +74,115 @@ nav li:first-child {
   display: none;
 }
 
+.pricing-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.062);
+  backdrop-filter: blur(5px);
+  display: none;
+  align-items: center;
+}
+
+.pricing-card {
+  box-shadow: 20px 20px 20px rgb(97, 95, 95);
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 0, 0);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.top {
+  background-color: white;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bottomleft {
+  display: grid;
+  background-color: rgb(58, 204, 204);
+}
+
+.bottomright {
+  background-color: aquamarine;
+}
+
+.top h1 {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: rgb(0, 247, 255);
+}
+
+.hassle {
+  color: rgb(170, 170, 43);
+  padding: 20px 10px 10px 50px;
+}
+
+.topDesc {
+  padding-left: 50px;
+  color: grey;
+}
+
+.bottomleft h1 {
+  padding: 20px;
+  color: black;
+}
+
+.bottomleft ul {
+  list-style: none;
+  display: inline-flex;
+}
+
+.bottomleft li {
+  padding-top: 5px;
+  color: grey;
+}
+
+.bottomleft li:first-child {
+  padding-left: 20px;
+  padding-right: 5px;
+  font-size: xx-large;
+  color: white;
+}
+
+.bottomleft li:last-child {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.signUpButton {
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px grey;
+  background-color: rgb(89, 155, 28);
+  color: rgb(55, 82, 83);
+  font-size: large;
+  border: none;
+}
+
+.signUpButton:hover {
+  background-color: white;
+}
+
+.bottomright h2 {
+  color: white;
+  padding: 20px;
+}
+
+.bottomright ul {
+  list-style-type: none;
+  padding-left: 20px;
+  color: grey;
+}
+
+.active {
+  display: flex;
+}
 @media (max-width: 800px) {
   .hideOnMobile {
     display: none;
