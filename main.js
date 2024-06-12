@@ -15,6 +15,8 @@ close.addEventListener("click", () => {
 });
 
 sub.addEventListener("click", () => {
+  let sideBar = document.querySelector(".sidebar");
+  sideBar.style.display = "none";
   console.log("helo");
   card.classList.toggle("active");
 });
